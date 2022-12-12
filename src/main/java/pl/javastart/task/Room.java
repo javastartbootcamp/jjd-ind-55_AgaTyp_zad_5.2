@@ -26,7 +26,7 @@ public class Room {
             } else {
                 this.currentTemp -= 1;
             }
-           result = true;
+            result = true;
         }
 
         return result;

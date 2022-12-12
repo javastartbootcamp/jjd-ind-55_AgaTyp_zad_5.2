@@ -11,23 +11,23 @@ public class Main {
         Room room4 = new Room(14.5, 20.4, 21, true);
 
         boolean cooler1 = room1.cooler();
-        System.out.printf(Locale.US, "Pokój o wymiarze %.1f m2 został schłodzony: %s.\n",room1.roomVolume, cooler1);
-        System.out.printf(Locale.US, "Jego aktualna temperatura: %.1f\n",room1.currentTemp);
+        System.out.printf(Locale.US, "Pokój o wymiarze %.1f m2 został schłodzony: %s.\n", room1.roomVolume, cooler1);
+        System.out.printf(Locale.US, "Jego aktualna temperatura: %.1f\n", room1.currentTemp);
         System.out.println("-----------------");
 
         boolean cooler2 = room2.cooler();
-        System.out.printf(Locale.US, "Pokój o wymiarze %.1f m2 został schłodzony: %s.\n",room2.roomVolume, cooler2);
-        System.out.printf(Locale.US, "Jego aktualna temperatura: %.1f\n",room2.currentTemp);
+        System.out.printf(Locale.US, "Pokój o wymiarze %.1f m2 został schłodzony: %s.\n", room2.roomVolume, cooler2);
+        System.out.printf(Locale.US, "Jego aktualna temperatura: %.1f\n", room2.currentTemp);
         System.out.println("-----------------");
 
         boolean cooler3 = room3.cooler();
-        System.out.printf(Locale.US, "Pokój o wymiarze %.1f m2 został schłodzony: %s.\n",room3.roomVolume, cooler3);
-        System.out.printf(Locale.US, "Jego aktualna temperatura: %.1f\n",room3.currentTemp);
+        System.out.printf(Locale.US, "Pokój o wymiarze %.1f m2 został schłodzony: %s.\n", room3.roomVolume, cooler3);
+        System.out.printf(Locale.US, "Jego aktualna temperatura: %.1f\n", room3.currentTemp);
         System.out.println("-----------------");
 
         boolean cooler4 = room4.cooler();
-        System.out.printf(Locale.US, "Pokój o wymiarze %.1f m2 został schłodzony: %s.\n",room4.roomVolume, cooler4);
-        System.out.printf(Locale.US, "Jego aktualna temperatura: %.1f\n",room4.currentTemp);
+        System.out.printf(Locale.US, "Pokój o wymiarze %.1f m2 został schłodzony: %s.\n", room4.roomVolume, cooler4);
+        System.out.printf(Locale.US, "Jego aktualna temperatura: %.1f\n", room4.currentTemp);
         System.out.println("-----------------");
 
     }
